@@ -1,8 +1,8 @@
 #ifndef _DIO_INTERFACE_H
 #define _DIO_INTERFACE_H
 #include <stdint.h>
-#include "../BitMath.h"
-#include "../Atmega32Register.h"
+#include "LIB/BitMath.h"
+#include "LIB/Atmega32Register.h"
 #include "DIO_Private.h"
 #include "DIO_Config.h"
 

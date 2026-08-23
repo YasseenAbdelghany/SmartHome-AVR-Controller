@@ -1,12 +1,12 @@
 /**
  * @file Atmega32Register.h
- * @author Hesham Ahmed (Hisham4Ahmed@gmail.com)
+ * @author Yasseen Ahmed (Yasseen.ahmed2005@gmail.com)
  * @brief 
  * @version 0.1
- * @date 2026-08-20
+ * @date 2026-08-23
  * 
  * @copyright Copyright (c) 2026
- * 
+ *
  */
 #ifndef _MCAL_ATMEGA32REGISTER_H
 #define _MCAL_ATMEGA32REGISTER_H
