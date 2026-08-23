@@ -1,12 +1,12 @@
 /**
- * @file BitMath.h
- * @author Hesham Ahmed (Hisham4Ahmed@gmail.com)
- * @brief 
+ * @file Atmega32Register.h
+ * @author Yasseen Ahmed (Yasseen.ahmed2005@gmail.com)
+ * @brief
  * @version 0.1
- * @date 2026-08-20
- * 
+ * @date 2026-08-23
+ *
  * @copyright Copyright (c) 2026
- * 
+ *
  */
 #ifndef _COMMON_BITMATH_H
 #define _COMMON_BITMATH_H
