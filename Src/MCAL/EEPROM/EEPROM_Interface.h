@@ -1,8 +1,8 @@
 #ifndef _EEPROM_INTERFACE_H
 #define _EEPROM_INTERFACE_H
 #include <stdint.h>
-#include "../BitMath.h"
-#include "../Atmega32Register.h"
+#include "LIB/BitMath.h"
+#include "LIB/Atmega32Register.h"
 #include "EEPROM_Private.h"
 #include "EEPROM_Config.h"
 
