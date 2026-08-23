@@ -1,0 +1,16 @@
+#ifndef _SYSTEMCONFIG_CONFIG_H
+#define _SYSTEMCONFIG_CONFIG_H
+
+/* EEPROM Memory Layout addresses (must match README table exactly) */
+#define CFG_EEPROM_TEMP_THRESHOLD_ADDR   0x0010u
+#define CFG_EEPROM_LIGHT_THRESHOLD_ADDR  0x0020u
+#define CFG_EEPROM_SYSTEM_MODE_ADDR      0x0030u
+#define CFG_EEPROM_ALARM_ENABLE_ADDR     0x0040u
+
+/* Validation ranges */
+#define CFG_TEMP_THRESHOLD_MIN    0u
+#define CFG_TEMP_THRESHOLD_MAX    100u
+#define CFG_LIGHT_THRESHOLD_MIN   0u
+#define CFG_LIGHT_THRESHOLD_MAX   255u
+
+#endif /*_SYSTEMCONFIG_CONFIG_H*/

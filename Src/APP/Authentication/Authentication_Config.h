@@ -1,0 +1,10 @@
+#ifndef _AUTHENTICATION_CONFIG_H
+#define _AUTHENTICATION_CONFIG_H
+
+#define AUTH_PASSWORD_LENGTH        4u
+#define AUTH_MAX_FAILED_ATTEMPTS    3u
+
+/* Matches README EEPROM Memory Layout: 0x00 - 0x03 = Admin Password */
+#define AUTH_EEPROM_PASSWORD_ADDR   0x0000u
+
+#endif /*_AUTHENTICATION_CONFIG_H*/
