@@ -3,7 +3,7 @@
  *
  * Application Entry Point
  */
-
+#include "LIB\Atmega32Register.h"
 int main(void)
 {
     /* Application Initialization */
