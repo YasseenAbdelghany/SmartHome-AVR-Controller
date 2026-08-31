@@ -1,0 +1,773 @@
+Archive member included to satisfy reference by file (symbol)
+
+D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+                              D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LDR\LDR_Program.c.o (__umulhisi3)
+D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                              D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LCD\LCD_Program.c.o (__udivmodsi4)
+D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                              D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o (exit)
+D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+                              D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\Authentication\Authentication_Program.c.o (__do_copy_data)
+D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                              D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\AlarmSystem\AlarmSystem_Program.c.o (__do_clear_bss)
+D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libc.a(memset.o)
+                              D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\RealTimeMonitor\RTM_Program.c.o (memset)
+
+There are no discarded input sections
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00008000         xr
+data             0x00800060         0x00000800         rw!x
+eeprom           0x00810000         0x00000400         rw!x
+fuse             0x00820000         0x00000002         rw!x
+lock             0x00830000         0x00000400         rw!x
+signature        0x00840000         0x00000400         rw!x
+user_signatures  0x00850000         0x00000400         rw!x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\AlarmSystem\AlarmSystem_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\Authentication\Authentication_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\EventLogging\EventLogging_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\OperatingModes\OperatingModes_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\RealTimeMonitor\RTM_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\Scheduler\Scheduler_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\StateMachine\StateMachine_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\SystemConfig\SystemConfig_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Button\Button_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Buzzer\Buzzer_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\DC_Motor\DCMotor_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\KeyPad\KeyPad_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LCD\LCD_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LDR\LDR_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LED\Led_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LM35\LM35_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Relay\Relay_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Segment\Segment_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\main.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\ADC\ADC_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\DIO\DIO_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\EEPROM\EEPROM_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\EXTI\EXTI_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\GIE\GIE_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer0\T0_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer1\T1_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer2\T2_Program.c.o
+LOAD D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\UART\UART_Program.c.o
+START GROUP
+LOAD D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a
+LOAD D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libm.a
+LOAD D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libc.a
+LOAD D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libatmega32.a
+END GROUP
+                [0x00000000]                      __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00008000]                      __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x00800060]                      __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x00000800]                      __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x00000400]                      __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000002]                      __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                        __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                        __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                        __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x28a2
+ *(.vectors)
+ .vectors       0x00000000       0x54 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000054                        . = ALIGN (0x2)
+                0x00000054                        __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                        __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+                0x00000054                        . = ALIGN (0x2)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                        __ctors_start = .
+ *(.ctors)
+                0x00000054                        __ctors_end = .
+                0x00000054                        __dtors_start = .
+ *(.dtors)
+                0x00000054                        __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_6
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_15
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+                0x0000008e                __vector_12
+ .text          0x00000092      0x104 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\AlarmSystem\AlarmSystem_Program.c.o
+                0x000000bc                ALARM_Init
+                0x000000d6                ALARM_Trigger
+                0x0000012e                ALARM_Clear
+                0x00000146                ALARM_IsActive
+                0x0000015a                ALARM_CheckFireCondition
+ .text          0x00000196      0x13a D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\Authentication\Authentication_Program.c.o
+                0x00000196                AUTH_Init
+                0x000001de                AUTH_VerifyPassword
+                0x00000292                AUTH_ChangePassword
+                0x000002b6                AUTH_GetFailedAttempts
+                0x000002bc                AUTH_ResetAttempts
+                0x000002c2                AUTH_IsLockedOut
+ .text          0x000002d0      0x1a8 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\EventLogging\EventLogging_Program.c.o
+                0x0000035c                LOG_Init
+                0x0000039c                LOG_Event
+                0x000003e2                LOG_DumpToUART
+ .text          0x00000478      0x2c0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\OperatingModes\OperatingModes_Program.c.o
+                0x00000478                ModeCtrl_Init
+                0x000004ce                ModeCtrl_ManualSetDevice
+                0x000005d4                ModeCtrl_ManualToggleDevice
+                0x00000632                ModeCtrl_AutoUpdate
+                0x000006fe                ModeCtrl_GetDeviceState
+ .text          0x00000738      0x392 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\RealTimeMonitor\RTM_Program.c.o
+                0x000007c4                RTM_Init
+                0x00000834                RTM_LCDStatusUpdate
+                0x000009e8                RTM_LogSensorReadings
+                0x00000a86                RTM_LogError
+ .text          0x00000aca      0x214 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\Scheduler\Scheduler_Program.c.o
+                0x00000af2                SCHED_Init
+                0x00000b6a                SCHED_GetTickCount
+                0x00000b86                SCHED_CheckElapsed
+                0x00000be2                SCHED_RegisterTask
+                0x00000c48                SCHED_MainFunction
+ .text          0x00000cde      0x1e4 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\StateMachine\StateMachine_Program.c.o
+                0x00000d1e                SM_Init
+                0x00000d4c                SM_MainFunction
+ .text          0x00000ec2      0x172 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\SystemConfig\SystemConfig_Program.c.o
+                0x00000ec2                CFG_Init
+                0x00000f94                CFG_SetTempThreshold
+                0x00000fa8                CFG_GetTempThreshold
+                0x00000fae                CFG_SetLightThreshold
+                0x00000ff2                CFG_GetLightThreshold
+                0x00000ffc                CFG_SetAlarmEnable
+                0x0000100e                CFG_GetAlarmEnable
+                0x00001018                CFG_SetSystemMode
+                0x0000102a                CFG_GetSystemMode
+ .text          0x00001034       0x78 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Button\Button_Program.c.o
+                0x00001034                Btn_Init
+                0x0000107c                Btn_ReadState
+ .text          0x000010ac       0x32 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Buzzer\Buzzer_Program.c.o
+                0x000010ac                Buzzer_Init
+                0x000010d2                Buzzer_On
+                0x000010d8                Buzzer_Off
+ .text          0x000010de       0xb4 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\DC_Motor\DCMotor_Program.c.o
+                0x000010de                DCMotor_Init
+                0x0000111e                DCMotor_SetState
+ .text          0x00001192      0x152 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\KeyPad\KeyPad_Program.c.o
+                0x00001192                KPD_Init
+                0x0000120c                KPD_GetPressedKey
+ .text          0x000012e4      0x766 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LCD\LCD_Program.c.o
+                0x000013c4                LCD_Init
+                0x00001680                LCD_SendCommand
+                0x000016a2                LCD_WriteCharacter
+                0x000016c4                LCD_WriteString
+                0x0000172e                LCD_MoveTo
+                0x000017ec                LCD_WriteNumber
+                0x00001930                LCD_StoreSpecialCharacter
+                0x00001a36                LCD_GetLastError
+                0x00001a40                LCD_ClearError
+ .text          0x00001a4a       0x22 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LDR\LDR_Program.c.o
+                0x00001a4a                LDR_GetLightPercentage
+ .text          0x00001a6c       0x2a D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LED\Led_Program.c.o
+                0x00001a6c                Led_Init
+                0x00001a72                Led_On
+                0x00001a7e                Led_Off
+                0x00001a92                Led_Toggle
+ .text          0x00001a96       0x3c D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LM35\LM35_Program.c.o
+                0x00001a96                LM35_GetTemperature
+ .text          0x00001ad2       0x46 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Relay\Relay_Program.c.o
+                0x00001ad2                Relay_Init
+                0x00001af8                Relay_On
+                0x00001b04                Relay_Off
+ .text          0x00001b18       0x3a D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Segment\Segment_Program.c.o
+                0x00001b18                SSD_Init
+                0x00001b1e                SSD_DisplayNumber
+                0x00001b42                SSD_Off
+ .text          0x00001b52        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\main.c.o
+ .text          0x00001b52      0x114 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\ADC\ADC_Program.c.o
+                0x00001b52                ADC_Init
+                0x00001ba4                ADC_ReadChannelPolling
+                0x00001bda                ADC_StartConversionInterrupt
+                0x00001be8                ADC_SetCallBack
+                0x00001bf2                __vector_16
+ .text          0x00001c66      0x22c D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\DIO\DIO_Program.c.o
+                0x00001c66                DIO_DirectionSelectforPin
+                0x00001ce2                DIO_DirectionSelectforGroup
+                0x00001d02                DIO_WritePin
+                0x00001d7e                DIO_WriteGroup
+                0x00001d9e                DIO_ReadPin
+                0x00001de8                DIO_ReadGroup
+                0x00001e24                DIO_TogglePin
+                0x00001e62                DIO_ToggleGroup
+ .text          0x00001e92       0xd4 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\EEPROM\EEPROM_Program.c.o
+                0x00001e92                EEPROM_WriteByte
+                0x00001eb2                EEPROM_ReadByte
+                0x00001ed0                EEPROM_WriteBlock
+                0x00001f20                EEPROM_ReadBlock
+ .text          0x00001f66      0x208 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\EXTI\EXTI_Program.c.o
+                0x00001f66                EXTI_Init
+                0x0000202a                EXTI_Disable
+                0x0000204e                EXTI_SetCallBack
+                0x00002078                __vector_1
+                0x000020ca                __vector_2
+                0x0000211c                __vector_3
+ .text          0x0000216e       0x10 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\GIE\GIE_Program.c.o
+                0x0000216e                GIE_Enable
+                0x00002176                GIE_Disable
+ .text          0x0000217e      0x120 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer0\T0_Program.c.o
+                0x0000217e                T0_Init
+                0x000021da                T0_SetCompareValue
+                0x000021de                T0_GetCounterValue
+                0x000021e2                T0_SetCounterValue
+                0x000021e6                T0_SetOVFCallBack
+                0x000021f0                T0_SetCompareCallBack
+                0x000021fa                __vector_10
+                0x0000224c                __vector_11
+ .text          0x0000229e      0x216 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer1\T1_Program.c.o
+                0x0000229e                T1_Init
+                0x00002388                T1_SetCompareA
+                0x0000238e                T1_SetCompareB
+                0x00002394                T1_GetCounterValue
+                0x0000239a                T1_SetCounterValue
+                0x000023a0                T1_SetOVFCallBack
+                0x000023aa                T1_SetCompACallBack
+                0x000023b4                T1_SetCompBCallBack
+                0x000023be                __vector_7
+                0x00002410                __vector_8
+                0x00002462                __vector_9
+ .text          0x000024b4      0x120 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer2\T2_Program.c.o
+                0x000024b4                T2_Init
+                0x00002510                T2_SetCompareValue
+                0x00002514                T2_GetCounterValue
+                0x00002518                T2_SetCounterValue
+                0x0000251c                T2_SetOVFCallBack
+                0x00002526                T2_SetCompareCallBack
+                0x00002530                __vector_4
+                0x00002582                __vector_5
+ .text          0x000025d4      0x188 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\UART\UART_Program.c.o
+                0x000025d4                UART_Init
+                0x0000263e                UART_SendByte
+                0x00002662                UART_SendString
+                0x0000269c                UART_IsDataAvailable
+                0x000026ae                UART_ReceiveByte
+                0x000026d8                __vector_13
+                0x00002718                __vector_14
+ .text          0x0000275c        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text          0x0000275c        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x0000275c        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text          0x0000275c        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x0000275c        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x0000275c        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libc.a(memset.o)
+                0x0000275c                        . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x0000275c       0xd2 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\main.c.o
+                0x0000275c                main
+ .text.libgcc.mul
+                0x0000282e       0x1e D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+                0x0000282e                __umulhisi3
+ .text.libgcc.div
+                0x0000284c        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000284c        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000284c        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000284c        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000284c        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000284c        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x0000284c        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x0000284c       0x44 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000284c                __udivmodsi4
+ .text.libgcc   0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00002890        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x00002890        0xe D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libc.a(memset.o)
+                0x00002890                memset
+                0x0000289e                        . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000289e        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                0x0000289e                _exit
+                0x0000289e                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000289e        0x4 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x000028a2                        . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+                0x000028a2                        _etext = .
+
+.data           0x00800060       0xec load address 0x000028a2
+                0x00800060                        PROVIDE (__data_start = .)
+ *(.data)
+ .data          0x00800060        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .data          0x00800060        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\AlarmSystem\AlarmSystem_Program.c.o
+ .data          0x00800060        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\Authentication\Authentication_Program.c.o
+ .data          0x00800060        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\EventLogging\EventLogging_Program.c.o
+ .data          0x00800060        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\OperatingModes\OperatingModes_Program.c.o
+ .data          0x00800060        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\RealTimeMonitor\RTM_Program.c.o
+ .data          0x00800060        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\Scheduler\Scheduler_Program.c.o
+ .data          0x00800060        0x1 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\StateMachine\StateMachine_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\SystemConfig\SystemConfig_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Button\Button_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Buzzer\Buzzer_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\DC_Motor\DCMotor_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\KeyPad\KeyPad_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LCD\LCD_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LDR\LDR_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LED\Led_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LM35\LM35_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Relay\Relay_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Segment\Segment_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\main.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\ADC\ADC_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\DIO\DIO_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\EEPROM\EEPROM_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\EXTI\EXTI_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\GIE\GIE_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer0\T0_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer1\T1_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer2\T2_Program.c.o
+ .data          0x00800061        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\UART\UART_Program.c.o
+ .data          0x00800061        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .data          0x00800061        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800061        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .data          0x00800061        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800061        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800061        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libc.a(memset.o)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ .rodata        0x00800061        0x4 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\Authentication\Authentication_Program.c.o
+ .rodata        0x00800065       0x20 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\KeyPad\KeyPad_Program.c.o
+ .rodata        0x00800085        0xa D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Segment\Segment_Program.c.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x0080008f       0xbd D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\EventLogging\EventLogging_Program.c.o
+                                  0xe (size before relaxing)
+ .rodata.str1.1
+                0x0080014c       0x19 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\RealTimeMonitor\RTM_Program.c.o
+ .rodata.str1.1
+                0x0080014c       0x9c D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\StateMachine\StateMachine_Program.c.o
+ *(.gnu.linkonce.r*)
+                0x008001e8                        . = ALIGN (0x2)
+                0x0080014c                        _edata = .
+                0x0080014c                        PROVIDE (__data_end = .)
+
+.bss            0x0080014c      0x104
+                0x0080014c                        PROVIDE (__bss_start = .)
+ *(.bss)
+ .bss           0x0080014c        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+ .bss           0x0080014c        0x2 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\AlarmSystem\AlarmSystem_Program.c.o
+ .bss           0x0080014e        0x1 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\Authentication\Authentication_Program.c.o
+ .bss           0x0080014f        0x2 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\EventLogging\EventLogging_Program.c.o
+ .bss           0x00800151        0x1 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\OperatingModes\OperatingModes_Program.c.o
+ .bss           0x00800152       0x22 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\RealTimeMonitor\RTM_Program.c.o
+ .bss           0x00800174       0x72 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\Scheduler\Scheduler_Program.c.o
+ .bss           0x008001e6        0x7 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\StateMachine\StateMachine_Program.c.o
+ .bss           0x008001ed        0x7 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\SystemConfig\SystemConfig_Program.c.o
+ .bss           0x008001f4        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Button\Button_Program.c.o
+ .bss           0x008001f4        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Buzzer\Buzzer_Program.c.o
+ .bss           0x008001f4        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\DC_Motor\DCMotor_Program.c.o
+ .bss           0x008001f4        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\KeyPad\KeyPad_Program.c.o
+ .bss           0x008001f4        0x2 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LCD\LCD_Program.c.o
+ .bss           0x008001f6        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LDR\LDR_Program.c.o
+ .bss           0x008001f6        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LED\Led_Program.c.o
+ .bss           0x008001f6        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LM35\LM35_Program.c.o
+ .bss           0x008001f6        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Relay\Relay_Program.c.o
+ .bss           0x008001f6        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Segment\Segment_Program.c.o
+ .bss           0x008001f6        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\main.c.o
+ .bss           0x008001f6        0x2 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\ADC\ADC_Program.c.o
+ .bss           0x008001f8        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\DIO\DIO_Program.c.o
+ .bss           0x008001f8        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\EEPROM\EEPROM_Program.c.o
+ .bss           0x008001f8        0x6 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\EXTI\EXTI_Program.c.o
+ .bss           0x008001fe        0x0 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\GIE\GIE_Program.c.o
+ .bss           0x008001fe        0x4 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer0\T0_Program.c.o
+ .bss           0x00800202        0x6 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer1\T1_Program.c.o
+ .bss           0x00800208        0x4 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer2\T2_Program.c.o
+ .bss           0x0080020c       0x44 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\UART\UART_Program.c.o
+ .bss           0x00800250        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .bss           0x00800250        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800250        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00800250        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800250        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800250        0x0 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libc.a(memset.o)
+ *(.bss*)
+ *(COMMON)
+                0x00800250                        PROVIDE (__bss_end = .)
+                0x000028a2                        __data_load_start = LOADADDR (.data)
+                0x0000298e                        __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800250        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x00800250                        _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
+                0x00000000                        __flmap_init_label = DEFINED (__flmap_noinit_start)?__flmap_noinit_start:0x0
+                0x00000000                        __flmap = DEFINED (__flmap)?__flmap:0x0
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                        __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\AlarmSystem\AlarmSystem_Program.c.o
+                                 0x30 (size before relaxing)
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\Authentication\Authentication_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\EventLogging\EventLogging_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\OperatingModes\OperatingModes_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\RealTimeMonitor\RTM_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\Scheduler\Scheduler_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\StateMachine\StateMachine_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\App\SystemConfig\SystemConfig_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Button\Button_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Buzzer\Buzzer_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\DC_Motor\DCMotor_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\KeyPad\KeyPad_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LCD\LCD_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LDR\LDR_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LED\Led_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\LM35\LM35_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Relay\Relay_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Hal\Segment\Segment_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\main.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\ADC\ADC_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\DIO\DIO_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\EEPROM\EEPROM_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\EXTI\EXTI_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\GIE\GIE_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer0\T0_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer1\T1_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\Timer2\T2_Program.c.o
+ .comment       0x0000002f       0x30 D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\Mcal\UART\UART_Program.c.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x3c D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x4e6
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x4e6 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.debug_abbrev   0x00000000      0x4a3
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4a3 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.debug_line     0x00000000       0x1d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1d D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x196
+ *(.debug_str)
+ .debug_str     0x00000000      0x196 D:/NTI/NTI-Embedded/ToolChain/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+OUTPUT(D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\SmartHome.elf elf32-avr)
+LOAD linker stubs

@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  10402	    236	    260	  10898	   2a92	D:\NTI\NTI-Embedded\SmartHome_Complete_Project\Atmega32Driver\release\SmartHome.elf
